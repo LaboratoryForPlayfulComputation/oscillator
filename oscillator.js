@@ -13,7 +13,7 @@ function setup() {
   ampSlider = createSlider(0.0, 50.0, 20.0);
   ampSlider.position(10, 10);
   ampSlider.style('width', '150px');
-  freqSlider = createSlider(200.0, 10000.0, 400.0);
+  freqSlider = createSlider(200.0, 10000.0, 440.0);
   freqSlider.position(10, 50);
   freqSlider.style('width', '150px');
   playButton = createButton('play');

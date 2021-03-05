@@ -69,3 +69,10 @@ function stopOscillator() {
   osc.amp(0, 0.5);
   playing = false;
 }
+
+function windowResized() {
+  canvas_width = windowWidth;
+  canvas_height = windowHeight;
+  resizeCanvas(canvas_width, canvas_height);
+  background(250);
+}

@@ -34,8 +34,9 @@ function draw() {
   amp = ampSlider.value()/100;
 
   stroke(0);
-  text('Amplitude/Volume: ' + amp, 20, 40);
-  text('Frequency/Pitch: ' + freq, 20, 80);
+  text('Amplitude/Volume', 20, 40);
+  //text('Amplitude/Volume: ' + amp, 20, 40);
+  text('Frequency/Pitch: ' + freq + ' Hz', 20, 80);
 
   if (playing) {
     // smooth the transitions by 0.1 seconds
